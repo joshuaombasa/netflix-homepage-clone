@@ -76,10 +76,47 @@ header {
     display: flex;
     color: #fff;
     background-color: black;
+    border-bottom: 8px solid #222;
 }
 
 .container2inner {
     margin-top: 200px;
-    border-bottom: 8px solid #222;
     width: 300px;
 }
+
+.container3 {
+    display: flex;
+    color: #fff;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.container3inner {
+    margin-top: 200px;
+    width: 500px;
+}
+
+.container4 {
+    color: #fff;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.container5 {
+    display: flex;
+    color: #fff;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.container6 {
+    display: flex;
+    color: #fff;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.container6inner {
+    width: 500px;
+}
+
