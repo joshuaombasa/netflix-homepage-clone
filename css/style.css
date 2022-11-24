@@ -1,6 +1,19 @@
+@font-face {
+    font-family: NetflixSansRegular;
+    src: url(NetflixSansRegular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: NetflixSansRegular;
+}
+
+
 .container1 {
     /* background-color: blue; */
-    background-image: url("images/netflix.jpg");
+    background-image: url("netflix.jpg");
     background-size: cover;
     border-bottom: 8px solid #222;
 }
@@ -51,11 +64,12 @@ header {
 }
 
 #companyNameheaderTexth2 {
-    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 400;
 }
 
 #companyNameheaderTexth3 {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 #getStartedbutton {
@@ -72,8 +86,18 @@ header {
     margin-left: 0px;
 }
 
+.h1gen {
+    font-size: 1.625rem;
+}
+
+.subtitles {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
 .container2 {
     display: flex;
+    justify-content: center;
     color: #fff;
     background-color: black;
     border-bottom: 8px solid #222;
@@ -84,8 +108,14 @@ header {
     width: 300px;
 }
 
+#container2image {
+    width: 415px;
+    height: 311px;
+}
+
 .container3 {
     display: flex;
+    justify-content: center;
     color: #fff;
     background-color: black;
     border-bottom: 8px solid #222;
@@ -96,27 +126,47 @@ header {
     width: 500px;
 }
 
+#container3image {
+    width: 415px;
+    height: 311px;
+}
+
 .container4 {
     color: #fff;
+    justify-content: center;
     background-color: black;
     border-bottom: 8px solid #222;
 }
 
 .container5 {
     display: flex;
+    justify-content: center;
     color: #fff;
     background-color: black;
     border-bottom: 8px solid #222;
+}
+
+#container5image {
+    width: 415px;
+    height: 311px;
 }
 
 .container6 {
     display: flex;
+    justify-content: center;
     color: #fff;
     background-color: black;
     border-bottom: 8px solid #222;
+
 }
 
 .container6inner {
-    width: 500px;
+    padding: 100px;
+    width: 415px;
 }
 
+#container6image {
+    padding: 10px;
+    width: 415px;
+    height: 285px;
+}
