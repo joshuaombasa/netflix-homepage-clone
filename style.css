@@ -2,6 +2,7 @@
     /* background-color: blue; */
     background-image: url("images/netflix.jpg");
     background-size: cover;
+    border-bottom: 8px solid #222;
 }
 
 header {
@@ -69,4 +70,16 @@ header {
     margin-right: 0;
     padding: 10px 20px;
     margin-left: 0px;
+}
+
+.container2 {
+    display: flex;
+    color: #fff;
+    background-color: black;
+}
+
+.container2inner {
+    margin-top: 200px;
+    border-bottom: 8px solid #222;
+    width: 300px;
 }
